@@ -26,7 +26,7 @@ import tensorflow as tf
 # sys.path.append('./tensorflow/research/object_detection')
 from object_detection import model_hparams
 from object_detection import model_lib
-
+import os
 os.environ['CUDA_VISIBLE_DEVICES'] = "0"
 flags = tf.app.flags
 flags.DEFINE_string(
