@@ -30,9 +30,9 @@ import os
 os.environ['CUDA_VISIBLE_DEVICES'] = "0"
 flags = tf.app.flags
 flags.DEFINE_string(
-    'model_dir', './training', 'Path to output model directory '
+    'model_dir', './obRec/training', 'Path to output model directory '
     'where event and checkpoint files will be written.')
-flags.DEFINE_string('pipeline_config_path', './pipeline.config', 'Path to pipeline config file.')
+flags.DEFINE_string('pipeline_config_path', './obRec/pipeline.config', 'Path to pipeline config file.')
 flags.DEFINE_integer('num_train_steps', 20000, 'Number of train steps.')
 flags.DEFINE_integer('num_eval_steps', 5000, 'Number of train steps.')
 flags.DEFINE_string(
