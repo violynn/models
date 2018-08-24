@@ -35,9 +35,9 @@ TRAIN_DIR = os.path.join(ROOT_DIR, "training")
 CONFIG_DIR = os.path.join(ROOT_DIR, "pipeline.config")
 
 flags.DEFINE_string(
-    'model_dir', 'TRAIN_DIR', 'Path to output model directory '
+    'model_dir', TRAIN_DIR, 'Path to output model directory '
     'where event and checkpoint files will be written.')
-flags.DEFINE_string('pipeline_config_path', 'CONFIG_DIR', 'Path to pipeline config file.')
+flags.DEFINE_string('pipeline_config_path', CONFIG_DIR, 'Path to pipeline config file.')
 flags.DEFINE_integer('num_train_steps', 20000, 'Number of train steps.')
 flags.DEFINE_integer('num_eval_steps', 5000, 'Number of train steps.')
 flags.DEFINE_string(
