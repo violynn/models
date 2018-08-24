@@ -1,0 +1,104 @@
+item {
+  id: 1
+  name: 'YeShu_P_330ml'
+}
+
+item {
+  id: 2
+  name: 'WangLaoJi_C_310ml'
+}
+
+item {
+  id: 3
+  name: 'HongNiu_C_250ml'
+}
+
+item {
+  id: 4
+  name: 'YiQuan_B_400ml'
+}
+
+item {
+  id: 5
+  name: 'WangLaoJi_P_250ml'
+}
+
+item {
+  id: 6
+  name: 'AnMuXi_HY_P_200g'
+}
+
+item {
+  id: 7
+  name: 'YingYangKuaiXian_YZ_B_500g'
+}
+
+item {
+  id: 8
+  name: 'BaiWei_C_500ml'
+}
+
+item {
+  id: 9
+  name: 'BeiQiYeCai_YW_B_450ml'
+}
+
+item {
+  id: 10
+  name: 'DongPeng_B_250ml'
+}
+
+item {
+  id: 11
+  name: 'YinLuZhou_GY_C_360g'
+}
+
+item {
+  id: 12
+  name: 'GuoLiCheng_B_450ml'
+}
+
+item {
+  id: 13
+  name: 'MengNiu_P_250ml'
+}
+
+item {
+  id: 14
+  name: 'ChunZhen_B_230g'
+}
+
+item {
+  id: 15
+  name: 'MNZaoCanN_HZao_P_250ml'
+}
+
+item {
+  id: 16
+  name: 'CVitamine_B_500ml'
+}
+
+item {
+  id: 17
+  name: 'ShuHua_P_220ml'
+}
+
+item {
+  id: 18
+  name: 'TaiQiZhou_HD_C_370g'
+}
+
+item {
+  id: 19
+  name: 'TianDiYiHao_C_330ml'
+}
+
+item {
+  id: 20
+  name: 'LiuGeHeTao_DT_C_240ml'
+}
+
+item {
+  id: 21
+  name: 'CocaCola_B_600ml'
+}
