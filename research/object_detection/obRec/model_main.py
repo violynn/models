@@ -21,9 +21,9 @@ from __future__ import print_function
 #from absl import flags
 
 import tensorflow as tf
-import sys
-sys.path.append('./tensorflow/research/')
-sys.path.append('./tensorflow/research/object_detection')
+# import sys
+# sys.path.append('./tensorflow/research/')
+# sys.path.append('./tensorflow/research/object_detection')
 from object_detection import model_hparams
 from object_detection import model_lib
 
