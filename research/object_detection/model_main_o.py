@@ -31,8 +31,8 @@ os.environ['CUDA_VISIBLE_DEVICES'] = "0"
 flags = tf.app.flags
 
 ROOT_DIR = os.getcwd()
-TRAIN_DIR = os.path.join(ROOT_DIR, "training")
-CONFIG_DIR = os.path.join(ROOT_DIR, "pipeline.config")
+TRAIN_DIR = os.path.join(ROOT_DIR, "object_detection/training")
+CONFIG_DIR = os.path.join(ROOT_DIR, "object_detection/pipeline.config")
 
 flags.DEFINE_string(
     'model_dir', TRAIN_DIR, 'Path to output model directory '
