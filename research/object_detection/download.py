@@ -19,7 +19,7 @@ def get_confirm_token(response):
         if key.startswith('download_warning'):
             return value
 
-return None
+    return None
 
 def save_response_content(response, destination):
     CHUNK_SIZE = 32768
