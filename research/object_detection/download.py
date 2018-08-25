@@ -31,5 +31,5 @@ def save_response_content(response, destination):
 
 if __name__ == "__main__":
     file_id = '18Uf0WrfY6TU6EFx-_XAoqj2ZR-gI_lfj'
-    destination = '/content/models/research/object_detection/obRec'
+    destination = '/content/models/research/object_detection/obRec/test.record'
     download_file_from_google_drive(file_id, destination)
